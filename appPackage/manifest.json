@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
   "manifestVersion": "1.19",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "id": "54eb4b4a-507e-4a97-86f8-71f8c674f0e5",
   "developer": {
     "name": "David James Growth Centre",
@@ -11,11 +11,11 @@
   },
   "name": {
     "short": "Growth Centre",
-    "full": "David James Growth Command Centre"
+    "full": "David James Growth Centre"
   },
   "description": {
     "short": "Read-only estate agency growth dashboard for Teams.",
-    "full": "A read-only Microsoft Teams tab for the David James Growth Command Centre demo, showing seller, landlord, competitor, reputation and branch action intelligence from trusted websites and internal data files."
+    "full": "A read-only Microsoft Teams tab for the David James Growth Centre demo, showing seller, landlord, competitor, reputation and branch action intelligence from trusted websites and internal data files."
   },
   "icons": {
     "color": "color.png",
