@@ -1,10 +1,10 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
   "manifestVersion": "1.19",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "54eb4b4a-507e-4a97-86f8-71f8c674f0e5",
   "developer": {
-    "name": "David James Growth Command Centre",
+    "name": "David James Growth Centre",
     "websiteUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
     "privacyUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
     "termsOfUseUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/"
