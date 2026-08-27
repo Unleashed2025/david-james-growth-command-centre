@@ -68,6 +68,12 @@ Recommended operating model:
 5. Use Power Automate to remind source owners to update the workbook and post hot lead/reputation/competitor alerts into Teams.
 6. Use Copilot Studio with the SharePoint source folder so staff can ask questions such as “show today’s hot leads”, “what should Arnold chase today?”, and “which reviews need action?”.
 
+A pre-built Teams app package is also published with the static demo:
+
+```text
+https://unleashed2025.github.io/david-james-growth-command-centre/david-james-growth-centre-teams-app.zip
+```
+
 ## Product direction
 
 The Growth Command Centre should become an action engine, not a passive reporting tool. Every insight should recommend the next best action for a branch manager, negotiator, marketer, or leadership team member.

@@ -38,9 +38,5 @@
       "scopes": ["personal"]
     }
   ],
-  "validDomains": ["unleashed2025.github.io"],
-  "webApplicationInfo": {
-    "id": "00000000-0000-0000-0000-000000000000",
-    "resource": "https://unleashed2025.github.io"
-  }
+  "validDomains": ["unleashed2025.github.io"]
 }

@@ -189,6 +189,29 @@ export function MicrosoftIntegrationGuide() {
         </p>
       </div>
 
+      <div className="mt-5 rounded-2xl border border-emerald-100 bg-emerald-50 p-5">
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-xs font-black uppercase tracking-wide text-emerald-700">
+              Teams install package
+            </p>
+            <h3 className="mt-1 text-xl font-black text-emerald-950">
+              Download this zip, then upload it into Microsoft Teams
+            </h3>
+            <p className="mt-2 text-sm font-semibold leading-6 text-emerald-900">
+              Teams does not install apps directly from this web page. Use the
+              package below via Teams &gt; Apps &gt; Manage your apps &gt; Upload an app.
+            </p>
+          </div>
+          <a
+            className="rounded-full bg-emerald-700 px-5 py-3 text-center text-sm font-black text-white"
+            href="/david-james-growth-centre-teams-app.zip"
+          >
+            Download Teams app package
+          </a>
+        </div>
+      </div>
+
       <div className="mt-5 grid gap-4 md:grid-cols-3">
         {active.cards.map((card) => (
           <details
