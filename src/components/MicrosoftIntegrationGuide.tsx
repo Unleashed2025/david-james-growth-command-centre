@@ -12,6 +12,8 @@ const sections = [
 
 type Section = (typeof sections)[number];
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const content: Record<
   Section,
   {
@@ -205,7 +207,7 @@ export function MicrosoftIntegrationGuide() {
           </div>
           <a
             className="rounded-full bg-emerald-700 px-5 py-3 text-center text-sm font-black text-white"
-            href="/david-james-growth-centre-teams-app.zip"
+            href={`${basePath}/david-james-growth-centre-teams-app.zip`}
           >
             Download Teams app package
           </a>
