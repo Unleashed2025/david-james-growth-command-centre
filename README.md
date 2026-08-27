@@ -71,7 +71,7 @@ Recommended operating model:
 A pre-built Teams app package is also published with the static demo:
 
 ```text
-https://unleashed2025.github.io/david-james-growth-command-centre/david-james-growth-centre-teams-app-v1-0-2.zip
+https://unleashed2025.github.io/david-james-growth-command-centre/dj-exec-teams-app-v1-0-3.zip
 ```
 
 ## Product direction

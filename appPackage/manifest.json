@@ -1,21 +1,21 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
   "manifestVersion": "1.19",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "id": "54eb4b4a-507e-4a97-86f8-71f8c674f0e5",
   "developer": {
-    "name": "David James Growth Centre",
+    "name": "DJ Exec",
     "websiteUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
     "privacyUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
     "termsOfUseUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/"
   },
   "name": {
-    "short": "Growth Centre",
-    "full": "David James Growth Centre"
+    "short": "DJ Exec",
+    "full": "DJ Exec"
   },
   "description": {
-    "short": "Read-only estate agency growth dashboard for Teams.",
-    "full": "A read-only Microsoft Teams tab for the David James Growth Centre demo, showing seller, landlord, competitor, reputation and branch action intelligence from trusted websites and internal data files."
+    "short": "Read-only estate agency executive dashboard.",
+    "full": "A read-only Microsoft Teams tab for the DJ Exec demo, showing seller, landlord, competitor, reputation and branch action intelligence from trusted websites and internal data files."
   },
   "icons": {
     "color": "color.png",
@@ -25,7 +25,7 @@
   "staticTabs": [
     {
       "entityId": "growth-command-centre-read-only",
-      "name": "Growth Centre",
+      "name": "DJ Exec",
       "contentUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
       "websiteUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
       "scopes": ["personal"]

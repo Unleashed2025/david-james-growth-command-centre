@@ -205,7 +205,7 @@ export function MicrosoftIntegrationGuide() {
           </div>
           <a
             className="rounded-full bg-emerald-700 px-5 py-3 text-center text-sm font-black text-white"
-            href="../../david-james-growth-centre-teams-app-v1-0-2.zip"
+            href="../../dj-exec-teams-app-v1-0-3.zip"
           >
             Download Teams app package
           </a>
