@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "1.0.0",
+  "id": "54eb4b4a-507e-4a97-86f8-71f8c674f0e5",
+  "developer": {
+    "name": "David James Growth Command Centre",
+    "websiteUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
+    "privacyUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
+    "termsOfUseUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/"
+  },
+  "name": {
+    "short": "Growth Centre",
+    "full": "David James Growth Command Centre"
+  },
+  "description": {
+    "short": "Read-only estate agency growth dashboard for Teams.",
+    "full": "A read-only Microsoft Teams tab for the David James Growth Command Centre demo, showing seller, landlord, competitor, reputation and branch action intelligence from trusted websites and internal data files."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#0F172A",
+  "staticTabs": [
+    {
+      "entityId": "growth-command-centre-read-only",
+      "name": "Growth Centre",
+      "contentUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
+      "websiteUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/",
+      "scopes": ["personal"]
+    },
+    {
+      "entityId": "growth-command-centre-microsoft-guide",
+      "name": "Teams + Copilot Setup",
+      "contentUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/microsoft/",
+      "websiteUrl": "https://unleashed2025.github.io/david-james-growth-command-centre/read-only/microsoft/",
+      "scopes": ["personal"]
+    }
+  ],
+  "validDomains": ["unleashed2025.github.io"],
+  "webApplicationInfo": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "resource": "https://unleashed2025.github.io"
+  }
+}

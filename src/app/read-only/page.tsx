@@ -42,6 +42,12 @@ export default function ReadOnlyDashboard() {
           >
             Open editable local version
           </Link>
+          <Link
+            className="ml-3 mt-6 inline-flex rounded-full bg-emerald-300 px-5 py-3 text-sm font-black text-emerald-950"
+            href="/read-only/microsoft/"
+          >
+            Teams + Copilot setup
+          </Link>
         </div>
       </section>
 

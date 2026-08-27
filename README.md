@@ -52,6 +52,22 @@ If the repository is named `YOUR-GITHUB-USERNAME.github.io`, the URL is:
 https://YOUR-GITHUB-USERNAME.github.io/read-only/
 ```
 
+## Microsoft Teams and Copilot demo
+
+The `appPackage` folder contains a Microsoft Teams app manifest for adding the read-only dashboard as a Teams personal tab. The package includes two tabs:
+
+- **Growth Centre**: the read-only dashboard.
+- **Teams + Copilot Setup**: the rollout guide at `/read-only/microsoft/`.
+
+Recommended operating model:
+
+1. Host the read-only app on GitHub Pages.
+2. Zip `appPackage/manifest.json`, `appPackage/color.png`, and `appPackage/outline.png`.
+3. Upload the zip into Microsoft Teams as a custom app.
+4. Store `public/data-source-register.xlsx` in SharePoint as the controlled manual data layer.
+5. Use Power Automate to remind source owners to update the workbook and post hot lead/reputation/competitor alerts into Teams.
+6. Use Copilot Studio with the SharePoint source folder so staff can ask questions such as “show today’s hot leads”, “what should Arnold chase today?”, and “which reviews need action?”.
+
 ## Product direction
 
 The Growth Command Centre should become an action engine, not a passive reporting tool. Every insight should recommend the next best action for a branch manager, negotiator, marketer, or leadership team member.
